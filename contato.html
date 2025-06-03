@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - ODS 3 Saúde para Mães</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-title">
+                <h1>ODS 3</h1>
+                <h2>Saúde e Bem-estar para Mães</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="importancia.html">Importância</a></li>
+                    <li><a href="desafios.html">Desafios</a></li>
+                    <li><a href="solucoes.html">Soluções</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="whatsapp-form">
+            <h2>Fale Conosco pelo WhatsApp</h2>
+            <p>Preencha o formulário abaixo para iniciar uma conversa no WhatsApp</p>
+            <p>Aviso: Ao enviar sua mensagem, uma resposta automática.</p>
+            <p>Exemplo: "Olá, aqui é (Seu Nome) do telefone (Numero de Telefone),(Sua Mensagem)</p>
+         
+            <form id="whatsapp-form">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Telefone Para Contato:</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="(XX) 9XXXX-XXXX">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn whatsapp-btn">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo" width="20">
+                    Enviar pelo WhatsApp
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 - ODS 3 Saúde e Bem Estar Para Todos</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
