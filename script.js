@@ -22,7 +22,7 @@ document.getElementById('whatsapp-form').addEventListener('submit', function() {
     
     const whatsappMessage = `Olá, aqui é ${name} do telefone ${phone}, ${message}`;
     
-    const whatsappUrl = `https://wa.me/5581999082930?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(whatsappMessage)}`;
     
     window.open(whatsappUrl);
     this.reset();
